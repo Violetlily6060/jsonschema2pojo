@@ -103,7 +103,7 @@ public class SchemaMapper {
             case YAML:
                 return schemaGenerator.schemaFromExample(schemaUrl);
             default:
-                throw new IllegalArgumentException("Unrecognised source type: " + ruleFactory.getGenerationConfig().getSourceType());
+                throw new IllegalArgumentException("Unrecognised source type: " + ruleFactory.getGenerationConfig().getSourceType() + "\n Format should be: JSON or YAML");
         }
 
     }
