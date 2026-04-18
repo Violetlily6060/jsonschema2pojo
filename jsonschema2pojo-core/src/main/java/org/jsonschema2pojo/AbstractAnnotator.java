@@ -116,4 +116,44 @@ public abstract class AbstractAnnotator implements Annotator {
     @Override
     public void dateTimeField(JFieldVar field, JDefinedClass clazz, JsonNode node) {
     }
+
+    @Override
+    public void validationNotNull(JFieldVar field, JDefinedClass clazz, String propertyName, JsonNode propertyNode) {
+    }
+
+    @Override
+    public void validationNotEmpty(JFieldVar field, JDefinedClass clazz, String propertyName, JsonNode propertyNode) {
+    }
+
+    @Override
+    public void validationNotBlank(JFieldVar field, JDefinedClass clazz, String propertyName, JsonNode propertyNode) {
+    }
+
+    @Override
+    public void validationSize(JFieldVar field, JDefinedClass clazz, String propertyName, JsonNode propertyNode) {
+    }
+
+    @Override
+    public void validationMin(JFieldVar field, JDefinedClass clazz, String propertyName, JsonNode propertyNode) {
+    }
+
+    @Override
+    public void validationMax(JFieldVar field, JDefinedClass clazz, String propertyName, JsonNode propertyNode) {
+    }
+
+    @Override
+    public void validationPattern(JFieldVar field, JDefinedClass clazz, String propertyName, JsonNode propertyNode) {
+    }
+
+    @Override
+    public void validationEmail(JFieldVar field, JDefinedClass clazz, String propertyName, JsonNode propertyNode) {
+    }
+
+    @Override
+    public void validationDecimalMin(JFieldVar field, JDefinedClass clazz, String propertyName, JsonNode propertyNode) {
+    }
+
+    @Override
+    public void validationDecimalMax(JFieldVar field, JDefinedClass clazz, String propertyName, JsonNode propertyNode) {
+    }
 }
